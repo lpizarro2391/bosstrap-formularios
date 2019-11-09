@@ -8,23 +8,37 @@
   </head>
   <body>
     <div class="container">
-      <form  action="">
+      <form  action="" role="form">
         <legend>Formulario de contacto</legend>
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre" id="Nombre">
-        <label for="Telefono">Telefono</label>
-        <input type="number" name="telefono" id="Telefono">
+        <div class="form-group">
+          <label for="Nombre">Nombre</label>
+          <input type="text" name="Nombre" id="Nombre">
+        </div>
+
+        <div class="form-group">
+          <label for="Telefono">Telefono</label>
+          <input type="number" name="telefono" id="Telefono">
+        </div>
         <label for="email">Email</label>
         <input type="email" name="email" id="email">
-        <label for="hobbie1">Leer</label>
-        <input type="checkbox" name="hobbie1" id="hobbie1">
-        <label for="hobbie2">Escribir</label>
-        <input type="checkbox" name="hobbie2" id="hobbie2">
-        <label for="hobbie3">Video juegos</label>
-        <input type="checkbox" name="hobbie3" id="hobbie3">
-        <label for="comentario">Comentarios</label>
-        <textarea name="comentario" rows="8" cols="40"></textarea>
-        <input type="button" name="boton" value="Enviar">
+        <div class="form-group">
+          <label for="hobbie1">Leer</label>
+          <input type="checkbox" name="hobbie1" id="hobbie1">
+        </div>
+        <div class="form-group">
+          <label for="hobbie2">Escribir</label>
+          <input type="checkbox" name="hobbie2" id="hobbie2">
+        </div>
+        <div class="form-group">
+          <label for="hobbie3">Video juegos</label>
+          <input type="checkbox" name="hobbie3" id="hobbie3">
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentarios</label>
+          <textarea name="comentario" rows="8" cols="40"></textarea>
+          <input type="button" name="boton" value="Enviar">
+        </div>
+        
       </form>
 
     </div>
